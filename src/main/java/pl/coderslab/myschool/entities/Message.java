@@ -15,5 +15,15 @@ public class Message {
     @Column(name = "message_body", columnDefinition = "text")
     private String messageBody;
 
+    @ManyToOne
+    @JoinColumn(name = "sender")
+    private User sender;
+
+    @ManyToOne
+    @JoinColumn(name = "receiver")
+    private User receiver;
+
+
+
     //musimy mieć odbiorcę i nadawcę
 }
