@@ -3,7 +3,12 @@ package pl.coderslab.myschool.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import pl.coderslab.myschool.entities.Message;
+import pl.coderslab.myschool.repository.MessageRepository;
 import pl.coderslab.myschool.services.UserService;
 
 @Controller
@@ -11,6 +16,23 @@ public class MessageController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private MessageRepository messageRepository;
+
+    @GetMapping("/message")
+    public String messageForm(Model model){
+        model.addAttribute("userId", userService.userLoggedIn());
+        model.addAttribute("message", new Message());
+        return "message_panel";
+    }
+
+    @PostMapping("/message")
+    public String messagePage(@ModelAttribute Message message){
+
+        messageRepository.save(message);
+        return "redirect:/admin";
+    }
 
     @RequestMapping("/message-in")
     public String messageIn(Model model){

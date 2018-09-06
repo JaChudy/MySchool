@@ -14,6 +14,9 @@
 </head>
 <body>
     Panel studenta ${nameOfLoginUser};
+    <a href="/message">Wyślij wiadomość</a> <br/>
+    <a href="/message-in">Skrzynka odbiorcza</a> <br/>
+    <a href="/message-out">Skrzynka nadawcza</a> <br/>
     <form:form action="${pageContext.request.contextPath}/logout" method="POST">
         <input type="submit" value="Logout" />
     </form:form>

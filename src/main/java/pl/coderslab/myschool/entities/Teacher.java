@@ -6,6 +6,8 @@ import org.hibernate.validator.constraints.NotBlank;
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -26,6 +28,8 @@ public class Teacher extends User{
     private BigDecimal payForHour;
 
 
+    @OneToMany(mappedBy = "teacher")
+    private Set<Lesson> lessons = new HashSet<>();
 
 
 
@@ -34,18 +38,18 @@ public class Teacher extends User{
     //uczen nauczyciel - jeden nauczyciel moze miec wielu uczniów.
 
 
-    @ManyToMany
-    @JoinTable(name = "teachers_students",
-            joinColumns = { @JoinColumn(name = "teacher_id")},
-            inverseJoinColumns = {@JoinColumn(name = "student_id")})
-    private Set<Student> students;
+    public Set<Lesson> getLessons() {
+        return lessons;
+    }
 
-    @Override
+    public void setLessons(Set<Lesson> lessons) {
+        this.lessons = lessons;
+    }
+
     public Long getId() {
         return id;
     }
 
-    @Override
     public void setId(Long id) {
         this.id = id;
     }
@@ -74,11 +78,5 @@ public class Teacher extends User{
         this.payForHour = payForHour;
     }
 
-    public Set<Student> getStudents() {
-        return students;
-    }
 
-    public void setStudents(Set<Student> students) {
-        this.students = students;
-    }
 }

@@ -5,6 +5,7 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -14,6 +15,7 @@ public class Student extends User{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
 
 
     //TODO relacje
@@ -26,16 +28,23 @@ public class Student extends User{
         inverseJoinColumns = {@JoinColumn(name = "parent_id")})
     private Set<Parent> parents;
 
-    //jeden uczeń wielu nauczycieli
-    @ManyToMany(mappedBy = "students")
-    private Set<Teacher> teachers;
 
-    @Override
+    @ManyToMany(mappedBy = "students")
+    private Set<Lesson> lessons = new HashSet<>();
+
+
+    public Set<Lesson> getLessons() {
+        return lessons;
+    }
+
+    public void setLessons(Set<Lesson> lessons) {
+        this.lessons = lessons;
+    }
+
     public Long getId() {
         return id;
     }
 
-    @Override
     public void setId(Long id) {
         this.id = id;
     }
@@ -48,11 +57,5 @@ public class Student extends User{
         this.parents = parents;
     }
 
-    public Set<Teacher> getTeachers() {
-        return teachers;
-    }
 
-    public void setTeachers(Set<Teacher> teachers) {
-        this.teachers = teachers;
-    }
 }

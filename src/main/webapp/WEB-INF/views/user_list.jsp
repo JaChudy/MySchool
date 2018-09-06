@@ -29,7 +29,12 @@
                     <td>${user.email}</td>
                     <td>${user.login}</td>
                     <td>${user.type}</td>
-                    <td>TODO edit and delete action links</td>
+                    <td><a href="/user/edit/${user.id}">
+                        <input type="submit" value="Edit"/>
+                    </a>
+                        <a href="/user/delete/${user.id}">
+                            <input type="submit" value="Usuń"/>
+                        </a></td>
                 </tr>
             </c:forEach>
 

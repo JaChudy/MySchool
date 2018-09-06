@@ -77,7 +77,7 @@
                 <a class="dropdown-item" href="/message-in">Odebrane</a>
                 <a class="dropdown-item" href="/message-out">Wysłane</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="/admin/message">Nowa wiadomość</a>
+                <a class="dropdown-item" href="/message">Nowa wiadomość</a>
             </div>
         </li>
         <li class="nav-item dropdown no-arrow">
@@ -150,13 +150,16 @@
             <h2>Zastanawiam sie dlaczego ta stopka wchodzi mi na linki!!!</h2>
             br
 
-            Moze to wiba br
+            Moze to wina br
             <div>
                 <a href="/admin/register">Nowy użytkownik</a> <br/>
                 <a href="/admin/all">Zobacz użytkowników</a> <br/>
-                <a href="/admin/message">Wyślij wiadomość</a> <br/>
+                <a href="/message">Wyślij wiadomość</a> <br/>
                 <a href="/message-in">Skrzynka odbiorcza</a> <br/>
                 <a href="/message-out">Skrzynka nadawcza</a> <br/>
+                <a href="/teacher/register-teacher">Dodaj belfra</a>
+                <a href="/student/register-student">Dodaj ucznia</a>
+                <a href="/parent/register-parent">Dodaj rodzica</a>
                 <form:form action="${pageContext.request.contextPath}/logout" method="POST">
                     <input type="submit" value="Logout" />
                 </form:form>

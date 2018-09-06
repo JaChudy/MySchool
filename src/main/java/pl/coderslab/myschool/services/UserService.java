@@ -18,6 +18,11 @@ public class UserService {
     @Autowired
     private MessageRepository messageRepository;
 
+    public User userLooggeDetail(){
+        String name = SecurityContextHolder.getContext().getAuthentication().getName();
+        return userRepository.findByLogin(name);
+    }
+
     public String userLoggedIn(){
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
         User user = userRepository.findByLogin(name);

@@ -60,19 +60,19 @@ public class AdminController {
 //        return "message_in";
 //    }
 
-    @GetMapping("/message")
-    public String messageForm(Model model){
-        model.addAttribute("userId", userService.userLoggedIn());
-        model.addAttribute("message", new Message());
-        return "message_panel";
-    }
-
-    @PostMapping("/message")
-    public String messagePage(@ModelAttribute Message message){
-
-        messageRepository.save(message);
-        return "redirect:/admin";
-    }
+//    @GetMapping("/message")
+//    public String messageForm(Model model){
+//        model.addAttribute("userId", userService.userLoggedIn());
+//        model.addAttribute("message", new Message());
+//        return "message_panel";
+//    }
+//
+//    @PostMapping("/message")
+//    public String messagePage(@ModelAttribute Message message){
+//
+//        messageRepository.save(message);
+//        return "redirect:/admin";
+//    }
 
     @GetMapping("/register")
     public String registerPage(Model model){
@@ -86,12 +86,16 @@ public class AdminController {
         if(bindingResult.hasErrors()){
             return "register";
         }
+
         user.setEnabled(true);
         userRepository.save(user);
+        //todo if user id=!null redirec student detail etc
+        Long id = user.getId();
+        return "redirect:/user/details/" + id;
 
-
-        return "redirect:/admin";
+        //return "redirect:/admin";
     }
+
 
     @ModelAttribute("allUser")
     public List<User> allUsers(){
