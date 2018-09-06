@@ -9,18 +9,21 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+
     <title>Rejestracja Użytkownika</title>
 </head>
 <body>
     <form:form method="post" modelAttribute="user">
+
+
         <fieldset>
             <legend>Podaj dane uzytkownika</legend>
 
             <div>
-                Login <form:input path="login"/>
+                Login: <form:input path="login"/>
             </div>
             <div>
-                Password <form:password path="password"/>
+                Hasło: <form:password path="password"/>
             </div>
             <div>
                 Email: <form:input path="email"/>
@@ -30,6 +33,16 @@
             </div>
             <div>
                 Nazwisko: <form:input path="lastName"/>
+            </div>
+            <div>
+                Adres: <form:input path="address"/>
+            </div>
+            <div>
+                typ konta <form:radiobuttons path="type" items="${userType}"/>
+            </div>
+
+            <div>
+                <form:errors path="*"/>
             </div>
         </fieldset>
         <fieldset>
@@ -41,5 +54,6 @@
             </span>
         </fieldset>
     </form:form>
+
 </body>
 </html>

@@ -13,7 +13,7 @@ import java.util.List;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(nullable = false, name = "first_name")
@@ -24,11 +24,11 @@ public class User {
     @NotBlank
     private String lastName;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     @NotBlank
     private String login;
 
-    @Column(nullable = false)
+    @Column(nullable = false, unique = true)
     @Email
     private String email;
 
@@ -47,7 +47,15 @@ public class User {
     @Column(name = "creation_data")
     private LocalDateTime creationDate;
 
+    private String type;
 
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     @OneToMany(mappedBy = "receiver")
     private List<Message> messagesRecived;
