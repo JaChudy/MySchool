@@ -18,6 +18,7 @@
     <a href="/message">Wyślij wiadomość</a> <br/>
     <a href="/message-in">Skrzynka odbiorcza</a> <br/>
     <a href="/message-out">Skrzynka nadawcza</a> <br/>
+    <a href="/lesson/add">Dodaj lekcje</a> <br/>
     <form:form action="${pageContext.request.contextPath}/logout" method="POST">
         <input type="submit" value="Logout" />
     </form:form>

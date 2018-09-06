@@ -4,6 +4,7 @@ import javax.persistence.*;
 import javax.xml.crypto.Data;
 import java.sql.Time;
 import java.time.DayOfWeek;
+import java.time.LocalTime;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
@@ -17,13 +18,13 @@ public class Lesson {
     private Long id;
 
     @Column(name = "lesson_day")
-    private DayOfWeek lessonDay;
+    private String lessonDay;
 
     @Column(name= "hour_start")
-    private Time hourStart;
+    private LocalTime hourStart;
 
     @Column(name= "hour_end")
-    private Time hourEnd;
+    private LocalTime hourEnd;
 
     @ManyToOne
     @JoinColumn(name = "teacher_id")
@@ -46,27 +47,27 @@ public class Lesson {
         this.id = id;
     }
 
-    public DayOfWeek getLessonDay() {
+    public String getLessonDay() {
         return lessonDay;
     }
 
-    public void setLessonDay(DayOfWeek lessonDay) {
+    public void setLessonDay(String lessonDay) {
         this.lessonDay = lessonDay;
     }
 
-    public Time getHourStart() {
+    public LocalTime getHourStart() {
         return hourStart;
     }
 
-    public void setHourStart(Time hourStart) {
+    public void setHourStart(LocalTime hourStart) {
         this.hourStart = hourStart;
     }
 
-    public Time getHourEnd() {
+    public LocalTime getHourEnd() {
         return hourEnd;
     }
 
-    public void setHourEnd(Time hourEnd) {
+    public void setHourEnd(LocalTime hourEnd) {
         this.hourEnd = hourEnd;
     }
 

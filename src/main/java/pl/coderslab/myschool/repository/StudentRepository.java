@@ -13,4 +13,6 @@ public interface StudentRepository extends JpaRepository <Student, Long> {
     @Override
     @Query("SELECT s FROM Student s WHERE s.type = 'student'")
     List<Student> findAll();
+
+    Student findById(long id);
 }

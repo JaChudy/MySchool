@@ -28,7 +28,7 @@ public class Teacher extends User{
     private BigDecimal payForHour;
 
 
-    @OneToMany(mappedBy = "teacher")
+    @OneToMany(mappedBy = "teacher", fetch = FetchType.EAGER)
     private Set<Lesson> lessons = new HashSet<>();
 
 
@@ -78,5 +78,13 @@ public class Teacher extends User{
         this.payForHour = payForHour;
     }
 
-
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "id=" + id +
+                ", bankName='" + bankName + '\'' +
+                ", accountNumber=" + accountNumber +
+                ", payForHour=" + payForHour +
+                "} " + super.toString();
+    }
 }

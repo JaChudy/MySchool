@@ -7,5 +7,5 @@ import pl.coderslab.myschool.entities.Teacher;
 @Repository
 public interface TeacherRepository extends JpaRepository<Teacher, Long> {
 
-
+        Teacher findById(long id);
 }

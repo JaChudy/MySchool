@@ -39,11 +39,6 @@
         <div>
             Płaca: <form:input path="payForHour"/>
         </div>
-            Uczniowie: <form:select path="students" items="${students}"
-                                     itemLabel="firstName" itemValue="id"
-                                     multiple="true"/>
-
-        <div>
             <form:errors path="*"/>
         </div>
     </fieldset>
