@@ -24,9 +24,6 @@
       <change afterPath="$PROJECT_DIR$/../JEE_Exam_5/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JEE_Exam_6/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JEE_Exam_6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NotePad/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NotePad/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NotePad/src/main/java/pl/coderslab/app/AppConfig.java" afterDir="false" />
@@ -192,23 +189,8 @@
       <change afterPath="$PROJECT_DIR$/../Warsztaty_05/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Warsztaty_05/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/LessonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/repository/LessonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/repository/LessonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_panel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_panel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/message_panel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/message_panel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/parent_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/parent_register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student_register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-school/WEB-INF/views/admin_panel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-school/WEB-INF/views/admin_panel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-school/WEB-INF/views/teacher_panel.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-school/WEB-INF/views/teacher_panel.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/my-school/WEB-INF/views/user_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/my-school/WEB-INF/views/user_list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zadanie1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zadanie1/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -249,10 +231,10 @@
           <entry key="class" value="2" />
           <entry key="css" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="java" value="182" />
+          <entry key="java" value="186" />
           <entry key="js" value="5" />
           <entry key="json" value="1" />
-          <entry key="jsp" value="68" />
+          <entry key="jsp" value="73" />
           <entry key="scss" value="1" />
           <entry key="sql" value="2" />
           <entry key="xml" value="10" />
@@ -262,9 +244,9 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="CSS" value="1" />
-          <entry key="JAVA" value="182" />
+          <entry key="JAVA" value="186" />
           <entry key="JSON" value="1" />
-          <entry key="JSP" value="68" />
+          <entry key="JSP" value="73" />
           <entry key="JavaScript" value="5" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SCSS" value="1" />
@@ -276,16 +258,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="java" value="12085" />
-          <entry key="jsp" value="4151" />
+          <entry key="java" value="12091" />
+          <entry key="jsp" value="4239" />
           <entry key="txt" value="10" />
           <entry key="xml" value="445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12085" />
-          <entry key="JSP" value="4151" />
+          <entry key="JAVA" value="12091" />
+          <entry key="JSP" value="4239" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="XML" value="445" />
         </counts>
@@ -300,86 +282,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="98" lean-forward="true" selection-start-line="29" selection-end-line="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/MessageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="102" column="5" lean-forward="true" selection-start-line="99" selection-start-column="3" selection-end-line="102" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student_register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="96" lean-forward="true" selection-start-line="30" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson_add.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/message_panel.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="519">
+              <caret line="201" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="201" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_panel.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/parent_register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="-216">
+              <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -387,8 +300,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="242" column="7" lean-forward="true" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
+            <state relative-caret-position="394">
+              <caret line="186" column="12" lean-forward="true" selection-start-line="141" selection-end-line="186" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -447,20 +360,20 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/config/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/entities/Teacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/repository/TeacherRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/LessonController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/repository/LessonRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_panel.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson_add.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student_register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/parent_register.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/message_panel.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp" />
       </list>
     </option>
   </component>
@@ -725,7 +638,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536272986320" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536274786117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-security-registration" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -842,12 +755,12 @@
       <workItem from="1536044854293" duration="26115000" />
       <workItem from="1536091095224" duration="161000" />
       <workItem from="1536091283053" duration="2711000" />
-      <workItem from="1536094013056" duration="79983000" />
+      <workItem from="1536094013056" duration="81584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108970000" />
+    <option name="totallyTimeSpent" value="110571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="-4" width="1857" height="1084" extended-state="6" />
@@ -1091,18 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/converters/StudentEntityConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/config/WebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1181,23 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/repository/MessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/services/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/LessonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -1205,13 +1089,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1244,52 +1121,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_panel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="215" column="7" lean-forward="true" selection-start-line="159" selection-start-column="8" selection-end-line="215" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="242" column="7" lean-forward="true" selection-start-line="242" selection-start-column="7" selection-end-line="242" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_register.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="98" lean-forward="true" selection-start-line="29" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student_register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="96" lean-forward="true" selection-start-line="30" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/parent_register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1303,13 +1138,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/MessageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/student_register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="96" lean-forward="true" selection-start-line="30" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/lesson_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="58" lean-forward="true" selection-start-line="40" selection-start-column="58" selection-end-line="40" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1324,6 +1163,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/parent_register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/admin_panel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="215" column="7" lean-forward="true" selection-start-line="159" selection-start-column="8" selection-end-line="215" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/repository/MessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/converters/StudentEntityConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/myschool/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="45" column="58" lean-forward="true" selection-start-line="45" selection-start-column="58" selection-end-line="45" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/teacher_panel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="201" lean-forward="true" selection-start-line="166" selection-start-column="4" selection-end-line="201" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="186" column="12" lean-forward="true" selection-start-line="141" selection-end-line="186" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/all_lesson.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="132" column="35" lean-forward="true" selection-start-line="132" selection-start-column="35" selection-end-line="132" selection-end-column="35" />
         </state>
       </provider>
     </entry>
