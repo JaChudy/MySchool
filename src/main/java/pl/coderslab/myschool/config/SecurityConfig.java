@@ -48,7 +48,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/**").fullyAuthenticated()
                 .and()
                 .formLogin()
-                .successForwardUrl("/admin");
+                .successForwardUrl("/admin")
+        .and().logout().logoutUrl("/logout").logoutSuccessUrl("/login");
 
     }
 

@@ -52,8 +52,11 @@ public class LessonController {
         return "redirect:/admin";
     }
 
-//    @GetMapping("/all")
-//    public String allLessonShow
+    @RequestMapping("/all-teacher")
+    public String allLessonShow(Model model){
+        model.addAttribute("allLesson", userService.allLesson());
+        return "all_lesson";
+    }
 
     @ModelAttribute("dayOfWeek")
     public List<String> dayOfWeek(){
