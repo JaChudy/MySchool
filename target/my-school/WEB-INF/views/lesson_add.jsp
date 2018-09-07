@@ -27,15 +27,76 @@
     <link href="../css/sb-admin.css" rel="stylesheet">
 
 </head>
-<body>
-    <form:form method="post" modelAttribute="lesson">
-        Dzień tygodnia: <form:radiobuttons path="lessonDay" items="${dayOfWeek}"/> <br/>
-        Godzina rozpoczęcia: <form:input path="hourStart"/> <br/>
-        Godzina zakończenia: <form:input path="hourEnd"/> <br/>
-        Uczniowie: <form:select path="students" items="${students}" itemLabel="firstName"
-                                itemValue="id"/> <br/>
-        <input type="submit" value="Wyślij"/>
-    </form:form>
+<body class="bg-dark">
+<div class="container">
+    <div class="card card-register mx-auto mt-5">
+        <div class="card-header">Dane ucznia</div>
+        <div class="card-body">
+            <form:form method="post" modelAttribute="lesson">
+
+
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            Godzina rozpoczęcia: <form:input path="hourStart"/>
+                        </div>
+                        <div class="col-md-6">
+                            Godzina zakończenia: <form:input path="hourEnd"/>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            Dzień tygodnia: <form:select path="lessonDay" items="${dayOfWeek}"/>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            Uczniowie: <form:select path="students" items="${students}" itemLabel="firstName"
+                                                    itemValue="id"/> <br/>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <form:errors path="*"/>
+
+
+                <div class="modal-footer">
+
+                    <input type="reset" class="btn btn-secondary"  value="Wyczyść"/>
+
+
+                    <input type="submit" class="btn btn-primary" value="Wyślij"/>
+
+                </div>
+
+            </form:form>
+
+        </div>
+    </div>
+</div>
+<%--<body>--%>
+    <%--<form:form method="post" modelAttribute="lesson">--%>
+        <%--Dzień tygodnia: <form:radiobuttons path="lessonDay" items="${dayOfWeek}"/> <br/>--%>
+        <%--Godzina rozpoczęcia: <form:input path="hourStart"/> <br/>--%>
+        <%--Godzina zakończenia: <form:input path="hourEnd"/> <br/>--%>
+        <%--Uczniowie: <form:select path="students" items="${students}" itemLabel="firstName"--%>
+                                <%--itemValue="id"/> <br/>--%>
+        <%--<input type="submit" value="Wyślij"/>--%>
+    <%--</form:form>--%>
 
     <!-- Bootstrap core JavaScript-->
     <script src="../vendor/jquery/jquery.min.js"></script>
