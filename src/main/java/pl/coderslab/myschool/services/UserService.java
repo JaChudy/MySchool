@@ -43,7 +43,8 @@ public class UserService {
     public List<Message> messagesOut(){
         String name = SecurityContextHolder.getContext().getAuthentication().getName();
         User user = userRepository.findByLogin(name);
-        return messageRepository.findAllMessageSend(user.getId());
+        User user1 = userRepository.findById(user.getId());
+        return messageRepository.findAllMessageSend(user1.getId());
     }
 
     public List<Lesson> allLesson() {
