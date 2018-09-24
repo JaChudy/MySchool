@@ -147,11 +147,11 @@
                 <a href="/message">Wyślij wiadomość</a> <br/>
                 <a href="/message-in">Skrzynka odbiorcza</a> <br/>
                 <a href="/message-out">Skrzynka nadawcza</a> <br/>
-                <a href="/teacher/register-teacher">Dodaj belfra</a>
-                <a href="/student/register-student">Dodaj ucznia</a>
-                <a href="/parent/register-parent">Dodaj rodzica</a>
+                <%--<a href="/teacher/register-teacher">Dodaj belfra</a>--%>
+                <%--<a href="/student/register-student">Dodaj ucznia</a>--%>
+                <%--<a href="/parent/register-parent">Dodaj rodzica</a>--%>
                 <form:form action="${pageContext.request.contextPath}/logout" method="POST">
-                    <input type="submit" value="Logout" />
+                    <input type="submit" value="Wyloguj" />
                 </form:form>
             </div>
         </div>
